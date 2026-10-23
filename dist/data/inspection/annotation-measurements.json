@@ -1,0 +1,31 @@
+{
+  "source": "VisA pcb1 held-out test sample 000, pinned BrachioLab mirror",
+  "source_image": "pcb1_0_image.jpg",
+  "source_mask": "pcb1_0_mask.png",
+  "mask_sha256": "f8d1244b75fbed7a6075ab93d630248c3a553901b970c6fd6702d14344fa90fc",
+  "image_dimensions_px": [
+    1404,
+    1070
+  ],
+  "positive_pixels": 1524,
+  "image_coverage_percent": 0.10144580238038182,
+  "bounding_box_xyxy_half_open": [
+    537,
+    755,
+    575,
+    857
+  ],
+  "centroid_xy_px": [
+    555.7152230971128,
+    804.0754593175853
+  ],
+  "display_crop_xywh": [
+    480,
+    690,
+    310,
+    240
+  ],
+  "interpretation": "Measurements of the supplied reference annotation, not model confidence or prediction quality. Bent-pin description is visual interpretation; binary source has no retained multiclass defect ID.",
+  "source_paper": "https://arxiv.org/html/2207.14315",
+  "annotation_provenance": "Paper reports image- and pixel-level annotations and manually generated realistic anomalies. Specific marking tool/annotator for this mask is not identified."
+}

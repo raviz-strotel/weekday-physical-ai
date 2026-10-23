@@ -1,0 +1,4 @@
+Visual Anomaly (VisA), Yang Zou, Jongheon Jeong, Latha Pemula, Dongqing Zhang, and Onkar Dabeer, SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation, ECCV 2022. CC BY 4.0. Accessed 2026-10-23.
+Dataset: https://github.com/amazon-science/spot-diff
+License: https://creativecommons.org/licenses/by/4.0/
+Displayed image and binary annotation mask extracted from BrachioLab/visa mirror, pinned revision d185c42584b49f1df81fe12bde627559ed88d483. Mirror binarizes masks; any colored overlay is visualization of supplied annotations, not prediction. No endorsement implied.

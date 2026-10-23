@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/CadQuery/cadquery",
+  "commit": "33361dc1b5b70bc83ce36f1b34a01ca85dfca80a",
+  "file": "examples/Ex003_Pillow_Block_With_Counterbored_Holes.py",
+  "license": "Apache-2.0"
+}

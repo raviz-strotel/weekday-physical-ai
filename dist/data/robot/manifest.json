@@ -1,0 +1,94 @@
+{
+  "acquired_utc": "2026-10-23",
+  "status": "actual_bytes_inspected",
+  "source_revision": "3899a5d24770fa593ad09f6f6e22cd417a227431",
+  "upstream_project": "https://rail-berkeley.github.io/bridgedata/",
+  "upstream_license_evidence": "Official project page states: All data is provided under the Creative Commons Attribution 4.0 International License.",
+  "conversion_repository": "https://huggingface.co/datasets/jesbu1/bridge_v2_lerobot",
+  "conversion_license": "Apache-2.0 declared in retained source README.md; original Bridge attribution retained separately.",
+  "source_files": {
+    "episode_000000.parquet": "https://huggingface.co/datasets/jesbu1/bridge_v2_lerobot/resolve/3899a5d24770fa593ad09f6f6e22cd417a227431/data/chunk-000/episode_000000.parquet",
+    "episode_000000_source.mp4": "https://huggingface.co/datasets/jesbu1/bridge_v2_lerobot/resolve/3899a5d24770fa593ad09f6f6e22cd417a227431/videos/chunk-000/observation.images.image_0/episode_000000.mp4",
+    "info.json": "https://huggingface.co/datasets/jesbu1/bridge_v2_lerobot/resolve/3899a5d24770fa593ad09f6f6e22cd417a227431/meta/info.json",
+    "task_000000.json": "https://huggingface.co/datasets/jesbu1/bridge_v2_lerobot/resolve/3899a5d24770fa593ad09f6f6e22cd417a227431/meta/tasks.jsonl"
+  },
+  "transformations": [
+    "Read first 1,000,000 bytes of task index for task 0; retained only first complete source record as task_000000.json. Partial source tasks file removed.",
+    "Parquet parsed with PyArrow to JSON without numerical rounding; 28 original rows preserved.",
+    "AV1 source video transcoded H.264 CRF18 yuv420p faststart for browser compatibility; no frame selection/speed changes.",
+    "poster.jpg extracted source frame 0; inspection.png montage source frames 0,13,27.",
+    "No downloaded code executed; no pickle objects read."
+  ],
+  "validation": {
+    "parquet_rows": 28,
+    "video_frames": 28,
+    "fps": 5,
+    "timestamps_min": 0.0,
+    "timestamps_max": 5.400000095367432,
+    "all_episode_indices_zero": true,
+    "all_task_indices_zero": true,
+    "frame_indices_contiguous": true
+  },
+  "files": [
+    {
+      "path": "LICENSE-conversion-Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5202,
+      "sha256": "c01a8ae96c1b25a8fee0ee70753ff8f500ab7ed5380ba43878e222ee5ff51d26"
+    },
+    {
+      "path": "REUSE.md",
+      "bytes": 3358,
+      "sha256": "43040115b06dab4b90dd78d18eeed8aaaf67ac581ad4e5250ac78a31174f2eca"
+    },
+    {
+      "path": "episode.json",
+      "bytes": 21631,
+      "sha256": "c8ec69aaf10a9ae6738744dbd078dd6235b24eca22e24088b464eef3dac3796c"
+    },
+    {
+      "path": "episode_000000.mp4",
+      "bytes": 178487,
+      "sha256": "62b48b83bd661a0deded8bf85fa6491afb38940d3b80f43092d1837b7851c389"
+    },
+    {
+      "path": "episode_000000.parquet",
+      "bytes": 6384,
+      "sha256": "36aebbce391c3b8bcc75e8c30c42a180828417b14b20df7fe3da394e7b561a3f"
+    },
+    {
+      "path": "episode_000000_source.mp4",
+      "bytes": 274880,
+      "sha256": "62a82d2b460749ebf5ae97869cb5835757231556a67406006e0b6e83875fa8b5"
+    },
+    {
+      "path": "info.json",
+      "bytes": 4692,
+      "sha256": "0aac6f75d5efed45cdad8594704154620c6bc434ca8fc68f125d1382b25b32f3"
+    },
+    {
+      "path": "inspection.png",
+      "bytes": 459894,
+      "sha256": "21782a82dc90b594d18ee41fd715ec236a792b2fe829cbf8f7cfbdaa9559f00b"
+    },
+    {
+      "path": "poster.jpg",
+      "bytes": 15135,
+      "sha256": "cf26fe28588b070c045afe6318fcf04ea8bc18c69fadfce5f26a26d2e9692d38"
+    },
+    {
+      "path": "revision.json",
+      "bytes": 85,
+      "sha256": "6e26bdc346f0aeaf7c3342c92d1e7f02a505ca2a5a19660e5c3d5797c05b3e83"
+    },
+    {
+      "path": "task_000000.json",
+      "bytes": 70,
+      "sha256": "b4f4c75d1093f8a29a6ceda902cd8e9021a67cf4de334dfe862be363b764b8b2"
+    }
+  ]
+}

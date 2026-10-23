@@ -1,0 +1,152 @@
+{
+  "title": "Physical AI reference specimens",
+  "date": "2026-10-23",
+  "status": "Public references and authored CAD demonstrator, not Weekday dataset inventory",
+  "files": [
+    {
+      "path": "data/cad/ATTRIBUTION.txt",
+      "bytes": 587,
+      "sha256": "d1c38725cc72da13feda2adce40d3876b246c3a11b90c5235af206493341bcd3"
+    },
+    {
+      "path": "data/cad/LICENSE",
+      "bytes": 11485,
+      "sha256": "7345486c76eb0160046e06c9c77797294979e15fc7cd1502d5c9cb650931bb84"
+    },
+    {
+      "path": "data/cad/after.mesh.json",
+      "bytes": 302499,
+      "sha256": "2b6ad8eb133ab4a2029cbec4731367b4c2294c989fc039540db79a077adc7e27"
+    },
+    {
+      "path": "data/cad/after.py",
+      "bytes": 2020,
+      "sha256": "c14a7df59f678c24971fc74e06749da54af210dd00fc77f6b85a529d390350ad"
+    },
+    {
+      "path": "data/cad/after.step",
+      "bytes": 71840,
+      "sha256": "2e8947eaf58809ba77d6b2be91e88522f7eab7787d023f48e240255438d75083"
+    },
+    {
+      "path": "data/cad/before.mesh.json",
+      "bytes": 358951,
+      "sha256": "3da4fa630fa64848fe328e686957e8f3793f307cdb19ecf7297ab71c50785639"
+    },
+    {
+      "path": "data/cad/before.py",
+      "bytes": 1997,
+      "sha256": "292c8f0c881a78d3c4067c319671f2b5cac45e18740f90e9332477d2b8467f3a"
+    },
+    {
+      "path": "data/cad/before.step",
+      "bytes": 71840,
+      "sha256": "88bcb1ad1291a7ea09350c1969ccf5188d347e3b71ffdce7705b5b5e449fb3b7"
+    },
+    {
+      "path": "data/cad/source.json",
+      "bytes": 209,
+      "sha256": "9ec3f8dad594ffea76e30cfb470233baad5acc3dfee1d0c1f38361f2f926aa04"
+    },
+    {
+      "path": "data/cad/validation.json",
+      "bytes": 1665,
+      "sha256": "a68412991ec26831df2227f9c6c23d9fd9088dc9db66df004880a8a24d73800b"
+    },
+    {
+      "path": "data/inspection/ATTRIBUTION.txt",
+      "bytes": 602,
+      "sha256": "b49b4979ab49885de6972979853a21fbeb26e19dd960f51b288a07dcfc33ed4c"
+    },
+    {
+      "path": "data/inspection/LICENSE-DATASET",
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "data/inspection/annotation-measurements.json",
+      "bytes": 1037,
+      "sha256": "37f6787a636814110e1927ada9150d968510ec04be58b2a821c57a2357b54828"
+    },
+    {
+      "path": "data/inspection/inspection-specimen.json",
+      "bytes": 3571,
+      "sha256": "093e20a872f4818761ef51bf4bcd1e02dedbdbaafa77ad43a0b47dd6231b442a"
+    },
+    {
+      "path": "data/inspection/pcb1_0_image.jpg",
+      "bytes": 255069,
+      "sha256": "e67db34e1045d7b8f01173a2f3e0138a6d89700e8a83d1426b6de0464e1e5e9d"
+    },
+    {
+      "path": "data/inspection/pcb1_0_mask.png",
+      "bytes": 1947,
+      "sha256": "f8d1244b75fbed7a6075ab93d630248c3a553901b970c6fd6702d14344fa90fc"
+    },
+    {
+      "path": "data/robot/LICENSE-conversion-Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "data/robot/README.md",
+      "bytes": 5202,
+      "sha256": "c01a8ae96c1b25a8fee0ee70753ff8f500ab7ed5380ba43878e222ee5ff51d26"
+    },
+    {
+      "path": "data/robot/REUSE.md",
+      "bytes": 3358,
+      "sha256": "43040115b06dab4b90dd78d18eeed8aaaf67ac581ad4e5250ac78a31174f2eca"
+    },
+    {
+      "path": "data/robot/episode.json",
+      "bytes": 21631,
+      "sha256": "c8ec69aaf10a9ae6738744dbd078dd6235b24eca22e24088b464eef3dac3796c"
+    },
+    {
+      "path": "data/robot/episode_000000.mp4",
+      "bytes": 178487,
+      "sha256": "62b48b83bd661a0deded8bf85fa6491afb38940d3b80f43092d1837b7851c389"
+    },
+    {
+      "path": "data/robot/episode_000000.parquet",
+      "bytes": 6384,
+      "sha256": "36aebbce391c3b8bcc75e8c30c42a180828417b14b20df7fe3da394e7b561a3f"
+    },
+    {
+      "path": "data/robot/episode_000000_source.mp4",
+      "bytes": 274880,
+      "sha256": "62a82d2b460749ebf5ae97869cb5835757231556a67406006e0b6e83875fa8b5"
+    },
+    {
+      "path": "data/robot/info.json",
+      "bytes": 4692,
+      "sha256": "0aac6f75d5efed45cdad8594704154620c6bc434ca8fc68f125d1382b25b32f3"
+    },
+    {
+      "path": "data/robot/inspection.png",
+      "bytes": 459894,
+      "sha256": "21782a82dc90b594d18ee41fd715ec236a792b2fe829cbf8f7cfbdaa9559f00b"
+    },
+    {
+      "path": "data/robot/manifest.json",
+      "bytes": 3922,
+      "sha256": "4adb92b421e6eed2411970d6b3088a4f547b6c05d3210922e142a33cbd81ac6f"
+    },
+    {
+      "path": "data/robot/poster.jpg",
+      "bytes": 15135,
+      "sha256": "cf26fe28588b070c045afe6318fcf04ea8bc18c69fadfce5f26a26d2e9692d38"
+    },
+    {
+      "path": "data/robot/revision.json",
+      "bytes": 85,
+      "sha256": "6e26bdc346f0aeaf7c3342c92d1e7f02a505ca2a5a19660e5c3d5797c05b3e83"
+    },
+    {
+      "path": "data/robot/task_000000.json",
+      "bytes": 70,
+      "sha256": "b4f4c75d1093f8a29a6ceda902cd8e9021a67cf4de334dfe862be363b764b8b2"
+    }
+  ]
+}

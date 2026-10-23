@@ -1,0 +1,4 @@
+Based on CadQuery's Ex003_Pillow_Block_With_Counterbored_Holes.py, contributors to CadQuery.
+Source: https://github.com/CadQuery/cadquery/blob/33361dc1b5b70bc83ce36f1b34a01ca85dfca80a/examples/Ex003_Pillow_Block_With_Counterbored_Holes.py
+License: Apache License, Version 2.0. Full text included in LICENSE.
+Changes: before.py adds a provenance comment; after.py additionally changes center_hole_dia from 22.0 to 30.0 mm. STEP, STL and mesh JSON files are generated outputs. This is an authored illustrative edit, not a recorded human trajectory or model output. No endorsement implied.

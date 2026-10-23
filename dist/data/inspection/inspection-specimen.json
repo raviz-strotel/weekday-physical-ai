@@ -1,0 +1,74 @@
+{
+  "specimen_id": "visa-pcb1-test-000",
+  "title": "Locate the anomalous component on a circuit board",
+  "data_origin": "External research reference. Not captured, owned, or supplied by Weekday.",
+  "input": {
+    "file": "pcb1_0_image.jpg",
+    "format": "JPEG",
+    "width": 1404,
+    "height": 1070,
+    "mode": "RGB"
+  },
+  "annotation": {
+    "file": "pcb1_0_mask.png",
+    "format": "PNG",
+    "width": 1404,
+    "height": 1070,
+    "mode": "L",
+    "values": {
+      "0": "background / not annotated anomalous",
+      "255": "annotated anomaly"
+    },
+    "image_label": 1,
+    "label_meaning": "anomalous",
+    "note": "Binary segmentation version of source annotations. Not a model prediction, confidence heatmap, or generated mask. No multi-class defect id retained in this binary mirror."
+  },
+  "task": "Anomaly localization: given the PCB image, predict a pixel-level anomaly map; compare against the supplied ground-truth mask.",
+  "evaluation_context": "This is a test example, not a training-split claim. In the one-class protocol, learn normal appearance from the normal training split, evaluate on held-out normal and anomalous images. A single example cannot establish benchmark performance.",
+  "visual_observation": "The selected PCB has a visibly bent leftmost pin. Mask marks that pin; bent-pin description is our visual observation, not a preserved multiclass id in this binary file.",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": [
+    "https://github.com/amazon-science/spot-diff/blob/main/README.md#license",
+    "https://github.com/amazon-science/spot-diff/blob/main/LICENSE-DATASET",
+    "https://registry.opendata.aws/visa/"
+  ],
+  "attribution": "Visual Anomaly (VisA), Yang Zou, Jongheon Jeong, Latha Pemula, Dongqing Zhang, and Onkar Dabeer, SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation, ECCV 2022. CC BY 4.0. Accessed 2026-10-23.",
+  "source_repository": "https://github.com/amazon-science/spot-diff",
+  "source_archive": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar",
+  "acquired_from": "https://huggingface.co/datasets/BrachioLab/visa/tree/d185c42584b49f1df81fe12bde627559ed88d483",
+  "mirror_file": "data/pcb1.test-00000-of-00001.parquet",
+  "mirror_row_index": 0,
+  "stored_original_paths": {
+    "image": "000.JPG",
+    "mask": "000.png"
+  },
+  "transformations": [
+    "Extracted exact image and mask bytes from pinned mirror Parquet row, no image re-encoding.",
+    "Mirror uses binary mask values 0 and 255 instead of source multiclass ids. Full mirror transformation code not verified.",
+    "Any color overlay added on website is a display of the supplied mask, not model inference."
+  ],
+  "provenance_limit": "File names and image/mask dimensions inspected in pinned mirror. Pixel hashes have not been cross-checked against primary S3 tar; do not claim byte identity to original archive.",
+  "commercial_display": "Dataset license permits sharing/adaptation with attribution and change notice; no endorsement may be implied.",
+  "not_established": [
+    "robot action trajectories",
+    "factory production collection capability",
+    "Weekday customer results",
+    "model performance",
+    "electrical function testing"
+  ],
+  "pixel_inspection": {
+    "row_index": 0,
+    "mask_unique_values_and_pixel_counts": {
+      "0": 1500756,
+      "255": 1524
+    },
+    "positive_pixel_count": 1524,
+    "mask_bounding_box_xyxy": [
+      537,
+      755,
+      574,
+      856
+    ]
+  }
+}
